@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+body{
+    height: 100vh;
+    background-color: rgb(19, 19, 99);
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none; 
+    
+}
+
+a{
+    text-decoration: none;
+    color:#faf7f7 ;
+    font-size: 1rem;
+    
+}
+
+a:hover{
+    color: orange;
+    border-color: blue;
+    border-style: solid;
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(251, 245, 245);
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem
+}
+
+.navbar .links .Sign{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.container{
+    justify-content: center;
+    padding: 50px;
+    
+}
+input.email{
+    border-radius: 20px;
+    outline-style: solid;
+    border:1px;
+    padding: 10px;
+    height: 32px;
+    width: 200px;
+    margin-left: 460px;
+    background-color: rgb(19, 19, 99);
+    outline-color: #b0abab;
+}
+h1{
+    text-align: center; 
+    color: azure;
+}
+p{
+    padding: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 1rem;
+    color: #fffbfb;
+  
+}
+ .button{
+    background-color: aqua;
+    color: rgb(245, 248, 250);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 220px;
+    margin-top: 80px;
+    height: 30px;
+    
+}
+h6{
+    text-align: center;
+    color:rgb(134, 139, 139);
+    
+}
